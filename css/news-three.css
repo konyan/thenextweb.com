@@ -2,9 +2,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 1rem;
-}
-
-.news--three-item {
+  margin-bottom: 3rem;
 }
 
 .news--three--item__card {
