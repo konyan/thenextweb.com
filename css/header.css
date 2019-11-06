@@ -1,6 +1,6 @@
 .header {
   width: 100%;
-  height: 48px;
+  height: 86px;
 }
 
 .header .logo {
@@ -80,7 +80,7 @@
     background-color: #f42;
     background: linear-gradient(to bottom right, #c09, #f42 85%);
     width: 100px;
-    height: 100%;
+    height: auto;
     padding: 1rem 1.4rem;
     will-change: height;
   }

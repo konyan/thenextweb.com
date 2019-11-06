@@ -1,0 +1,91 @@
+main {
+  /* margin-top: 4rem; */
+  margin: 0;
+  padding: 0.4rem;
+}
+
+.main--article--list {
+  display: grid;
+  grid-template-columns: minmax(540px, 1fr) 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: 540px;
+}
+
+.main--article--item.first {
+  grid-row: 1/-1;
+}
+
+.main--article--item {
+  background: rgba(0, 0, 0, 0.25)
+    url(https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)
+    no-repeat;
+  background-size: 100% 100%;
+  display: block;
+  will-change: background-color;
+  z-index: 2;
+  position: relative;
+}
+
+.main--article--item.first .article-logo {
+  background: transparent
+    url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png)
+    no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  z-index: 4;
+  padding: 1rem;
+  mix-blend-mode: lighten;
+}
+
+.main--article--item.first .cover-date {
+  display: block;
+  text-align: right;
+  color: aliceblue;
+  padding: 1rem;
+  font-weight: 500;
+}
+
+.main--article--item .body {
+  position: absolute;
+  bottom: 1rem;
+  left: 16px;
+  right: 16px;
+}
+
+.main--article--item .body h4 {
+  font-size: 20px;
+  font-weight: 500px;
+  display: block;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.main--article--item .body h2 {
+  font-size: 32px;
+  font-weight: 900;
+  display: block;
+  color: whitesmoke;
+  margin-bottom: 0.8rem;
+}
+
+.main--article--item .body span {
+  display: block;
+  font-size: 12px;
+  font-weight: 300;
+  color: #b2b2b2;
+}
+
+@media (max-width: 1024px) {
+  .main--article--item.first .article-logo {
+    display: none;
+  }
+
+  .main--article--item.first .cover-date {
+    display: none;
+  }
+}
