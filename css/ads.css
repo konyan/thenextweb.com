@@ -2,10 +2,9 @@
   display: block;
   width: 100%;
   text-align: center;
-  /* padding: 3rem; */
 }
 
 .main--ads-one img {
   height: 300px;
-  margin: 2rem;
+  margin: 4rem 1rem;
 }

@@ -2,7 +2,8 @@
 @import "./color.css";
 @import "./top-article.css";
 @import "./ads.css";
-@import "./main.css";
+@import "./news-one.css";
+@import "./news-three.css";
 
 html,
 body {
@@ -52,4 +53,16 @@ li {
 a {
   text-decoration: none;
   padding: 0.2rem;
+}
+
+.main--body {
+  display: block;
+  width: 80%;
+  margin: 1rem 10%;
+}
+
+.news--title {
+  font-size: 24px;
+  font-weight: 900;
+  color: red;
 }
