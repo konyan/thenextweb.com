@@ -1,6 +1,7 @@
 main {
   margin: 0;
   padding: 0.4rem;
+  text-align: left;
 }
 
 .main--article--list {

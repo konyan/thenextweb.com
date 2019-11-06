@@ -1,15 +1,12 @@
 @import "./header.css";
 @import "./color.css";
 @import "./top-article.css";
-
-@font-face {
-  font-family: projectFont;
-  src: url(../fonts/NotoSanMyanmar.ttf);
-}
+@import "./ads.css";
+@import "./main.css";
 
 html,
 body {
-  font-family: "projectFont", sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: azure;
 }
 
@@ -19,7 +16,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "projectFont", sans-serif;
+  font-family: "Roboto", sans-serif;
+
   text-rendering: optimizeLegibility;
   outline: none;
 }
@@ -32,6 +30,7 @@ p,
 strong {
   text-rendering: optimizeLegibility;
   outline: none;
+  font-family: "Roboto", sans-serif;
 }
 
 h4 {
