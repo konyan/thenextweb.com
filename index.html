@@ -8,62 +8,60 @@
     <title>Responsive Design</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
     <header>
-        <div class="header-div">
+        <div class="header">
             <div class="logo">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 66 16">
                     <path fill="#FFF"
                         d="M34 16h-6v-5.2c0-.7-.3-1.3-.7-1.8L25 6.7c-.5-.4-1.1-.7-1.8-.7H22v10h-6V0h8.7c1.3 0 2.6.5 3.5 1.5l4.3 4.3c1 .9 1.5 2.2 1.5 3.5V16zM60 0v5.2c0 .7-.3 1.3-.7 1.8L57 9.3c-.5.5-1.1.7-1.8.7h-2.5c.8-.9 1.3-2.1 1.3-3.3V0h-6v5.2c0 .7-.3 1.3-.7 1.8L45 9.3c-.5.5-1.1.7-1.8.7H42V0h-6v16h8.7c1.3 0 2.6-.5 3.5-1.5l2.8-2.8V16h5.7c1.3 0 2.6-.5 3.5-1.5l4.3-4.3c1-.9 1.5-2.2 1.5-3.5V0h-6zM14 0H0v6h4v10h6V6h4" />
                 </svg>
             </div>
-            <div class="header-section">
-                <div class="header-top">
-                    <ul class="header-top__nav1">
+            <div class="header--navigation">
+                <div class="header--navigation--top">
+                    <ul class="top--left">
                         <li>
-                            <a href="#">News</a>
+                            <a href="#" class="white">News</a>
                         </li>
                         <li>
-                            <a href="#">Events</a>
+                            <a href="#" class="white">Events</a>
                         </li>
                         <li>
-                            <a href="#">Business</a>
+                            <a href="#" class="white">Business</a>
                         </li>
                         <li>
-                            <a href="#">AMAs</a>
+                            <a href="#" class="white">AMAs</a>
                         </li>
                         <li>
-                            <a href="#">Spaces</a>
+                            <a href="#" class="white">Spaces</a>
                         </li>
                         <li>
-                            <a href="#">Terms & Conditions</a>
+                            <a href="#" class="white">Terms & Conditions</a>
                         </li>
                     </ul>
-                    <ul class="header-top__nav2">
+                    <ul class="top--right">
                         <li>
-                            <a href="#">About</a>
+                            <a href="#" class="white">About</a>
                         </li>
                         <li>
-                            <a href="#">Team</a>
+                            <a href="#" class="white">Team</a>
                         </li>
                         <li>
-                            <a href="#">Advertise</a>
+                            <a href="#" class="white">Advertise</a>
                         </li>
                         <li>
-                            <a href="#">Jobs</a>
+                            <a href="#" class="white">Jobs</a>
                         </li>
                         <li>
-                            <a href="#">Contact</a>
+                            <a href="#" class="white">Contact</a>
                         </li>
                     </ul>
                 </div>
-                <div class="header-bottom">
-                    <div class="header-bottom__nav">
+                <div class="header--navigation--bottom">
+                    <div class="bottom--left">
                         <ul>
                             <li>
                                 <a href="#">LATEST</a>
@@ -82,21 +80,39 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="header-humbuger">
+                    <div class="bottom--right">
                         <div class="search-btn">
-                            <button type="submit"><i class="fa fa-search"></i></button>
+                            <i class="fa fa-search"></i>
                         </div>
-                        <button class="toggle-button">
+                        <!-- <button class="toggle-button">
                             <span class="toggle-button__bar"></span>
                             <span class="toggle-button__bar"></span>
                             <span class="toggle-button__bar"></span>
-                        </button>
+                        </button> -->
                     </div>
                 </div>
             </div>
         </div>
+        <div class="header--mobile">
+            <div class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 66 16">
+                    <path fill="#FFF"
+                        d="M34 16h-6v-5.2c0-.7-.3-1.3-.7-1.8L25 6.7c-.5-.4-1.1-.7-1.8-.7H22v10h-6V0h8.7c1.3 0 2.6.5 3.5 1.5l4.3 4.3c1 .9 1.5 2.2 1.5 3.5V16zM60 0v5.2c0 .7-.3 1.3-.7 1.8L57 9.3c-.5.5-1.1.7-1.8.7h-2.5c.8-.9 1.3-2.1 1.3-3.3V0h-6v5.2c0 .7-.3 1.3-.7 1.8L45 9.3c-.5.5-1.1.7-1.8.7H42V0h-6v16h8.7c1.3 0 2.6-.5 3.5-1.5l2.8-2.8V16h5.7c1.3 0 2.6-.5 3.5-1.5l4.3-4.3c1-.9 1.5-2.2 1.5-3.5V0h-6zM14 0H0v6h4v10h6V6h4" />
+                </svg>
+            </div>
+            <div class="bottom--right">
+                <ul>
+                    <li>
+                        <i class="fa fa-search"></i>
+                    </li>
+                    <li>
+                        <i class="fa fa-bars"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </header>
-    <main class="">
+    <!-- <main class="">
         <div class="main-top">
             <div class="main-top__article one">
                 <div class="logo-article">
@@ -667,7 +683,7 @@
                 </span>
             </div>
         </div>
-    </footer>
+    </footer> -->
 </body>
 
 </html>
