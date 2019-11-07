@@ -45,6 +45,11 @@ footer {
   text-align: center;
 }
 
+.footer--top__nav li {
+  text-align: center;
+  display: inline-block;
+}
+
 .footer--bottom {
   display: block;
   text-align: center;
