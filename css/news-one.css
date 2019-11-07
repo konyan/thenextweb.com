@@ -60,6 +60,12 @@
 
 @media (min-width: 1201px) {
   .news--one--list {
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  }
+}
+
+@media (min-width: 1600px) {
+  .news--one--list {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   }
 }
