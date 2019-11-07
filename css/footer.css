@@ -5,17 +5,16 @@ footer {
 .footer--top {
   display: grid;
   background-color: #141414;
-  grid-template-rows: 60px 60px;
+  grid-template-rows: 80px 60px;
 }
 
 .footer--top__icons {
   display: grid;
-  grid-gap: 0.6rem;
-  grid-template-columns: repeat(7, 32px);
+  grid-gap: 0.4rem;
+  grid-template-columns: repeat(auto-fit, minmax(32px, 40px));
   justify-content: center;
   align-content: center;
   justify-items: center;
-  align-items: center;
 }
 
 .footer--top__icons li {
@@ -36,15 +35,15 @@ footer {
 
 .footer--top__nav {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(60px, 80px));
   justify-content: center;
-  align-content: center;
-  padding: 0.6rem;
 }
 
 .footer--top__nav li a {
   color: whitesmoke;
   text-align: center;
+  font-size: 12px;
+  font-weight: 400;
 }
 
 .footer--top__nav li {
@@ -56,10 +55,4 @@ footer {
   color: azure;
   font-size: 10px;
   font-weight: 300;
-}
-
-@media (max-width: 420px) {
-  .footer--top__icons {
-    grid-template-columns: repeat(7, 24px);
-  }
 }

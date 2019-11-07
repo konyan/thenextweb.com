@@ -19,6 +19,25 @@
   padding: 0 0.6rem;
 }
 
+@media (max-width: 767px) {
+  .news--two {
+    display: block;
+  }
+
+  .news--two ul {
+    display: block;
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .news--two ul li {
+    display: block;
+    padding: 0.6rem;
+    border: none;
+    font-size: 18px;
+  }
+}
+
 .news--two ul li:last-child {
   border-right: none;
   padding-right: 0;
