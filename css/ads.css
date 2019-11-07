@@ -5,6 +5,13 @@
 }
 
 .main--ads-one img {
-  height: 300px;
+  height: 260px;
   margin: 4rem 1rem;
+}
+
+@media (max-width: 420px) {
+  .main--ads-one img {
+    height: 200px;
+    margin: 4rem 1rem;
+  }
 }

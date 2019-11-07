@@ -5,15 +5,17 @@ footer {
 .footer--top {
   display: grid;
   background-color: #141414;
-  grid-template-rows: 80px 60px;
+  grid-template-rows: 60px 60px;
 }
 
 .footer--top__icons {
   display: grid;
   grid-gap: 0.6rem;
-  grid-template-columns: repeat(7, 40px);
+  grid-template-columns: repeat(7, 32px);
   justify-content: center;
   align-content: center;
+  justify-items: center;
+  align-items: center;
 }
 
 .footer--top__icons li {
@@ -32,7 +34,7 @@ footer {
 
 .footer--top__nav {
   display: grid;
-  grid-template-columns: repeat(6, 100px);
+  grid-template-columns: repeat(6, 1fr);
   justify-content: center;
   align-content: center;
   padding: 0.6rem;
@@ -40,6 +42,7 @@ footer {
 
 .footer--top__nav li a {
   color: whitesmoke;
+  text-align: center;
 }
 
 .footer--bottom {
@@ -49,6 +52,12 @@ footer {
 
 .footer--bottom span {
   color: azure;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 300;
+}
+
+@media (max-width: 420px) {
+  .footer--top__icons {
+    grid-template-columns: repeat(7, 24px);
+  }
 }
