@@ -57,6 +57,16 @@ a {
   padding: 0.2rem;
 }
 
+main {
+  margin-top: 1rem;
+}
+
+@media (max-width: 767px) {
+  main {
+    margin-top: 3rem;
+  }
+}
+
 .main--body {
   display: block;
   width: 80%;

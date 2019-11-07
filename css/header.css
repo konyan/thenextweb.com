@@ -76,13 +76,16 @@
   }
 
   .header .logo {
-    display: inline-block;
+    display: block;
     background-color: #f42;
     background: linear-gradient(to bottom right, #c09, #f42 85%);
     width: 100px;
-    height: auto;
-    padding: 1rem 1.4rem;
+    padding: 1rem;
     will-change: height;
+  }
+
+  .header .logo svg {
+    margin-top: 1rem;
   }
 }
 
@@ -95,6 +98,13 @@
     display: flex;
     justify-content: space-between;
     height: 48px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: white;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.4);
   }
 
   .header--mobile .logo {
