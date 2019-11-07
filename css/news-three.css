@@ -98,21 +98,3 @@
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   padding: 8px;
 }
-
-/* @media (min-width: 1200px) {
-  .news--three--list {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-    grid-gap: 1rem;
-    margin-bottom: 3rem;
-  }
-}
-
-@media (max-width: 767px) {
-  .news--three--list {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(0px, 1fr));
-    grid-gap: 1rem;
-    margin-bottom: 3rem;
-  }
-} */
