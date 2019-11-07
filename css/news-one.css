@@ -1,6 +1,6 @@
 .news--one--list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-gap: 1rem;
   margin-top: 1.72rem;
 }
@@ -50,6 +50,12 @@
   display: inline;
   font-size: 16px;
   font-weight: 500;
+}
+
+@media (min-width: 1200px) {
+  .news--one--list {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
 }
 
 @media (max-width: 760px) {
