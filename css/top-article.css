@@ -33,10 +33,10 @@ main {
   background-position: 0 0;
   background-size: cover;
   position: absolute;
-  bottom: 0px;
-  left: 0px;
-  top: 0px;
-  right: 0px;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  right: 0;
   z-index: 4;
   padding: 1rem;
   mix-blend-mode: lighten;

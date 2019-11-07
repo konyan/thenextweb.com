@@ -10,9 +10,7 @@
 }
 
 .news--three--item__header {
-  background: rgba(0, 0, 0, 0)
-    url(https://tpc.googlesyndication.com/daca_images/simgad/18042429881767174580)
-    no-repeat;
+  background: rgba(0, 0, 0, 0) url(https://tpc.googlesyndication.com/daca_images/simgad/18042429881767174580) no-repeat;
   background-size: cover;
   height: 240px;
   position: relative;
@@ -24,9 +22,7 @@
   display: block;
   width: 100%;
   height: 100%;
-  background: transparent
-    url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png)
-    no-repeat;
+  background: transparent  url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png) no-repeat;
   background-size: 100% 100%;
   z-index: 2;
 }
@@ -36,6 +32,13 @@
   bottom: 8px;
   left: 8px;
   z-index: 8;
+}
+
+.news--three-item__body-left h4 {
+  color: red;
+  margin-bottom: 0.6rem;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .news--three--item__header .data h4 {
@@ -66,13 +69,6 @@
 
 .news--three-item__body-left {
   padding: 1rem;
-}
-
-.news--three-item__body-left h4 {
-  color: red;
-  margin-bottom: 0.6rem;
-  font-size: 16px;
-  font-weight: 500;
 }
 
 .news--three-item__body-left h3 {

@@ -77,8 +77,8 @@
 
   .header .logo {
     display: block;
-    background-color: #f42;
     background: linear-gradient(to bottom right, #c09, #f42 85%);
+    background-color: #f42;
     width: 100px;
     padding: 1rem;
     will-change: height;
@@ -108,8 +108,8 @@
   }
 
   .header--mobile .logo {
-    background-color: #f42;
     background: linear-gradient(to bottom right, #c09, #f42 85%);
+    background-color: #f42;
     display: block;
     width: 100px;
     padding: 1rem 1.4rem;

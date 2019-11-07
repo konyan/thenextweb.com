@@ -20,7 +20,6 @@ h4,
 h5,
 h6 {
   font-family: "Roboto", sans-serif;
-
   text-rendering: optimizeLegibility;
   outline: none;
 }
