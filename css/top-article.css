@@ -16,9 +16,7 @@ main {
 }
 
 .main--article--item {
-  background: rgba(0, 0, 0, 0.25)
-    url(https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)
-    no-repeat;
+  background: rgba(0, 0, 0, 0.25) url(https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500) no-repeat;
   background-size: 100% 100%;
   display: block;
   will-change: background-color;
@@ -27,9 +25,7 @@ main {
 }
 
 .main--article--item.first .article-logo {
-  background: transparent
-    url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png)
-    no-repeat;
+  background: transparent url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png) no-repeat;
   background-position: 0 0;
   background-size: cover;
   position: absolute;
