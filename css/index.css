@@ -1,7 +1,6 @@
 @import "./header.css";
 @import "./color.css";
 @import "./top-article.css";
-@import "./ads.css";
 @import "./news-one.css";
 @import "./news-two.css";
 @import "./news-three.css";
@@ -84,4 +83,22 @@ main {
   font-weight: 900;
   color: red;
   display: inline-block;
+}
+
+.main--ads-one {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.main--ads-one img {
+  height: 260px;
+  margin: 4rem 1rem;
+}
+
+@media (max-width: 420px) {
+  .main--ads-one img {
+    height: 200px;
+    margin: 4rem 1rem;
+  }
 }
