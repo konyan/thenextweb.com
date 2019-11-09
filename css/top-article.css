@@ -97,7 +97,7 @@ main {
 
 @media (min-width: 767px) and (max-width: 998px) {
   .main--article--list {
-    grid-template-columns: 580px 1fr;
+    grid-template-columns: 480px 1fr;
   }
 }
 
