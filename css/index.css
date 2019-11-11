@@ -71,7 +71,7 @@ main {
   margin: 1rem 10%;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1280px) {
   .main--body {
     width: 100%;
     margin: 1rem 0.4%;
