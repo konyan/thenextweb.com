@@ -98,6 +98,7 @@ main {
 @media (min-width: 767px) and (max-width: 998px) {
   .main--article--list {
     grid-template-columns: 480px 1fr;
+    height: 400px;
   }
 }
 
@@ -115,7 +116,7 @@ main {
   .main--article--list {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    height: 860px;
+    height: 660px;
     grid-gap: 0.6rem;
   }
 
