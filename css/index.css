@@ -1,0 +1,104 @@
+@import "./header.css";
+@import "./color.css";
+@import "./top-article.css";
+@import "./news-one.css";
+@import "./news-two.css";
+@import "./news-three.css";
+@import "./footer.css";
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: azure;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+  text-rendering: optimizeLegibility;
+  outline: none;
+}
+
+ul,
+li,
+span,
+a,
+p,
+strong {
+  text-rendering: optimizeLegibility;
+  outline: none;
+  font-family: "Roboto", sans-serif;
+}
+
+h4 {
+  font-weight: 500;
+}
+
+h6 {
+  font-weight: 900;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  padding: 0.2rem;
+}
+
+main {
+  margin-top: 1rem;
+}
+
+@media (max-width: 767px) {
+  main {
+    margin-top: 3rem;
+  }
+}
+
+.main--body {
+  display: block;
+  width: 60%;
+  margin: 1rem 20%;
+}
+
+@media (max-width: 1280px) {
+  .main--body {
+    width: 100%;
+    margin: 1rem 0.4%;
+  }
+}
+
+.news--title {
+  font-size: 24px;
+  font-weight: 900;
+  color: red;
+  display: inline-block;
+}
+
+.main--ads-one {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.main--ads-one img {
+  height: 260px;
+  margin: 4rem 1rem;
+}
+
+@media (max-width: 420px) {
+  .main--ads-one img {
+    height: 200px;
+    margin: 4rem 1rem;
+  }
+}

@@ -3,13 +3,825 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Next Web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Design</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
-    <h1>Hello World</h1>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 66 16">
+                    <path fill="#FFF"
+                        d="M34 16h-6v-5.2c0-.7-.3-1.3-.7-1.8L25 6.7c-.5-.4-1.1-.7-1.8-.7H22v10h-6V0h8.7c1.3 0 2.6.5 3.5 1.5l4.3 4.3c1 .9 1.5 2.2 1.5 3.5V16zM60 0v5.2c0 .7-.3 1.3-.7 1.8L57 9.3c-.5.5-1.1.7-1.8.7h-2.5c.8-.9 1.3-2.1 1.3-3.3V0h-6v5.2c0 .7-.3 1.3-.7 1.8L45 9.3c-.5.5-1.1.7-1.8.7H42V0h-6v16h8.7c1.3 0 2.6-.5 3.5-1.5l2.8-2.8V16h5.7c1.3 0 2.6-.5 3.5-1.5l4.3-4.3c1-.9 1.5-2.2 1.5-3.5V0h-6zM14 0H0v6h4v10h6V6h4" />
+                </svg>
+            </div>
+            <div class="header--navigation">
+                <div class="header--navigation--top">
+                    <ul class="top--left">
+                        <li>
+                            <a href="#" class="white">News</a>
+                        </li>
+                        <li>
+                            <a href="#" class="white">Events</a>
+                        </li>
+                        <li>
+                            <a href="#" class="white">Business</a>
+                        </li>
+                        <li>
+                            <a href="#" class="white">AMAs</a>
+                        </li>
+                        <li>
+                            <a href="#" class="white">Spaces</a>
+                        </li>
+                        <li>
+                            <a href="#" class="white">Terms & Conditions</a>
+                        </li>
+                    </ul>
+                    <ul class="top--right">
+                        <li>
+                            <a href="#" class="white">About</a>
+                        </li>
+                        <li>
+                            <a href="#" class="white">Team</a>
+                        </li>
+                        <li>
+                            <a href="#" class="white">Advertise</a>
+                        </li>
+                        <li>
+                            <a href="#" class="white">Jobs</a>
+                        </li>
+                        <li>
+                            <a href="#" class="white">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header--navigation--bottom">
+                    <div class="bottom--left">
+                        <ul>
+                            <li>
+                                <a href="#">LATEST</a>
+                            </li>
+                            <li>
+                                <a href="#">HARD FORK</a>
+                            </li>
+                            <li>
+                                <a href="#">PLUGGED</a>
+                            </li>
+                            <li>
+                                <a href="#">FUNDERMENTALS</a>
+                            </li>
+                            <li>
+                                <a href="#">WORK 2030</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bottom--right">
+                        <div class="search-btn">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <!-- <button class="toggle-button">
+                            <span class="toggle-button__bar"></span>
+                            <span class="toggle-button__bar"></span>
+                            <span class="toggle-button__bar"></span>
+                        </button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header--mobile">
+            <div class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 66 16">
+                    <path fill="#FFF"
+                        d="M34 16h-6v-5.2c0-.7-.3-1.3-.7-1.8L25 6.7c-.5-.4-1.1-.7-1.8-.7H22v10h-6V0h8.7c1.3 0 2.6.5 3.5 1.5l4.3 4.3c1 .9 1.5 2.2 1.5 3.5V16zM60 0v5.2c0 .7-.3 1.3-.7 1.8L57 9.3c-.5.5-1.1.7-1.8.7h-2.5c.8-.9 1.3-2.1 1.3-3.3V0h-6v5.2c0 .7-.3 1.3-.7 1.8L45 9.3c-.5.5-1.1.7-1.8.7H42V0h-6v16h8.7c1.3 0 2.6-.5 3.5-1.5l2.8-2.8V16h5.7c1.3 0 2.6-.5 3.5-1.5l4.3-4.3c1-.9 1.5-2.2 1.5-3.5V0h-6zM14 0H0v6h4v10h6V6h4" />
+                </svg>
+            </div>
+            <div class="bottom--right">
+                <ul>
+                    <li>
+                        <i class="fa fa-search"></i>
+                    </li>
+                    <li>
+                        <i class="fa fa-bars"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main--article--list">
+            <article class="main--article--item first">
+                <div class="article-logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 122 32">
+                        <path fill="#FFF"
+                            d="M34 16h-6v-5.2c0-.7-.3-1.3-.7-1.8L25 6.7c-.5-.4-1.1-.7-1.8-.7H22v10h-6V0h8.7c1.3 0 2.6.5 3.5 1.5l4.3 4.3c1 .9 1.5 2.2 1.5 3.5V16zM60 0v5.2c0 .7-.3 1.3-.7 1.8L57 9.3c-.5.5-1.1.7-1.8.7h-2.5c.8-.9 1.3-2.1 1.3-3.3V0h-6v5.2c0 .7-.3 1.3-.7 1.8L45 9.3c-.5.5-1.1.7-1.8.7H42V0h-6v16h8.7c1.3 0 2.6-.5 3.5-1.5l2.8-2.8V16h5.7c1.3 0 2.6-.5 3.5-1.5l4.3-4.3c1-.9 1.5-2.2 1.5-3.5V0h-6zM14 0H0v6h4v10h6V6h4" />
+                    </svg>
+                </div>
+                <div class="cover-date">Monday — October 21, 2019</div>
+                <div class="body">
+                    <h4>Gear</h4>
+                    <h2 class="heading-one">CHEAP: This DJI Mavic Air drone kit is $150 off — fly my pretties, fly!</h2>
+                    <span>By Charlote Dickie</span>
+                </div>
+            </article>
+            <article class="main--article--item">
+                <div class="body">
+                    <h4>Gear</h4>
+                    <h2 class="heading-two">CHEAP: This DJI Mavic Air drone kit is $150 off — fly my pretties, fly!</h2>
+                    <span>By Charlote Dickie</span>
+                </div>
+            </article>
+            <article class="main--article--item">
+                <div class="body">
+                    <h4>Gear</h4>
+                    <h2 class="heading-two">CHEAP: This DJI Mavic Air drone kit is $150 off — fly my pretties, fly!</h2>
+                    <span>By Charlote Dickie</span>
+                </div>
+            </article>
+        </div>
+        <div class="main--ads-one">
+            <img src="https://tpc.googlesyndication.com/daca_images/simgad/18042429881767174580" alt="">
+        </div>
+        <div class="main--body">
+
+            <h1 class="news--title">
+                Latest news <span class="title-icon"><i class="fa fa-chevron-right"></i></span>
+            </h1>
+
+            <div class="news--one--list">
+                <div class="news--one--item">
+                    <div class="news--one--item__header">
+                        <img src="https://image.shutterstock.com/image-photo/beautiful-water-drop-on-dandelion-260nw-789676552.jpg"
+                            alt="depressed">
+                    </div>
+                    <div class="news--one--item__body">
+                        <h3>
+                            Why startup founders should open up about their mental health
+                        </h3>
+                        <p>Pavlo</p>
+                    </div>
+                </div>
+                <div class="news--one--item">
+                    <div class="news--one--item__header">
+                        <img src="https://image.shutterstock.com/image-photo/beautiful-water-drop-on-dandelion-260nw-789676552.jpg"
+                            alt="depressed">
+                    </div>
+                    <div class="news--one--item__body">
+                        <h3>
+                            Why startup founders should open up about their mental health
+                        </h3>
+                        <p>Pavlo</p>
+                    </div>
+                </div>
+                <div class="news--one--item">
+                    <div class="news--one--item__header">
+                        <img src="https://image.shutterstock.com/image-photo/beautiful-water-drop-on-dandelion-260nw-789676552.jpg"
+                            alt="depressed">
+                    </div>
+                    <div class="news--one--item__body">
+                        <h3>
+                            Why startup founders should open up about their mental health
+                        </h3>
+                        <p>Pavlo</p>
+                    </div>
+                </div>
+                <div class="news--one--item">
+                    <div class="news--one--item__header">
+                        <img src="https://image.shutterstock.com/image-photo/beautiful-water-drop-on-dandelion-260nw-789676552.jpg"
+                            alt="depressed">
+                    </div>
+                    <div class="news--one--item__body">
+                        <h3>
+                            Why startup founders should open up about their mental health
+                        </h3>
+                        <p>Pavlo</p>
+                    </div>
+                </div>
+                <div class="news--one--item">
+                    <div class="news--one--item__header">
+                        <img src="https://image.shutterstock.com/image-photo/beautiful-water-drop-on-dandelion-260nw-789676552.jpg"
+                            alt="depressed">
+                    </div>
+                    <div class="news--one--item__body">
+                        <h3>
+                            Why startup founders should open up about their mental health
+                        </h3>
+                        <p>Pavlo</p>
+                    </div>
+                </div>
+                <div class="news--one--item">
+                    <div class="news--one--item__header">
+                        <img src="https://image.shutterstock.com/image-photo/beautiful-water-drop-on-dandelion-260nw-789676552.jpg"
+                            alt="depressed">
+                    </div>
+                    <div class="news--one--item__body">
+                        <h3>
+                            Why startup founders should open up about their mental health
+                        </h3>
+                        <p>Pavlo</p>
+                    </div>
+                </div>
+                <div class="news--one--item">
+                    <div class="news--one--item__header">
+                        <img src="https://image.shutterstock.com/image-photo/beautiful-water-drop-on-dandelion-260nw-789676552.jpg"
+                            alt="depressed">
+                    </div>
+                    <div class="news--one--item__body">
+                        <h3>
+                            Why startup founders should open up about their mental health
+                        </h3>
+                        <p>Pavlo</p>
+                    </div>
+                </div>
+                <div class="news--one--item">
+                    <div class="news--one--item__header">
+                        <img src="https://image.shutterstock.com/image-photo/beautiful-water-drop-on-dandelion-260nw-789676552.jpg"
+                            alt="depressed">
+                    </div>
+                    <div class="news--one--item__body">
+                        <h3>
+                            Why startup founders should open up about their mental health
+                        </h3>
+                        <p>Pavlo</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main--ads-one">
+                <img src="https://tpc.googlesyndication.com/daca_images/simgad/18042429881767174580" alt="">
+            </div>
+            <div class="news--two">
+                <h1 class="news--title">
+                    Latest funding rounds on Index.co <span class="title-icon"><i
+                            class="fa fa-chevron-right"></i></span>
+                </h1>
+                <ul>
+                    <li class="title-active">See more</li>
+                    <li class="title-active">Get updates by email</li>
+                    <li class="title-active">Add info</li>
+                </ul>
+            </div>
+            <div class="news--two--list">
+                <div class="news--two--item">
+                    <div class="header">
+                        <img class="image"
+                            src="https://index.tnwcdn.com/images/5ec987de33ab1484549cc14ddebf135ead38b35d.png"
+                            alt="image">
+                        <h2 class="title">
+                            Verishop
+                        </h2>
+                        <div class="subtitle">
+                            <strong>$12.5M</strong>
+                            <p>Venture Captital</p>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>Lifestyle</li>
+                        <li>Lightspeed Venture Partners</li>
+                        <li>Verishop: $30 Million In Funding Raised And Valuation Of More Than $100 Million</li>
+                    </ul>
+                </div>
+                <div class="news--two--item">
+                    <div class="header">
+                        <img class="image"
+                            src="https://index.tnwcdn.com/images/5ec987de33ab1484549cc14ddebf135ead38b35d.png"
+                            alt="image">
+                        <h2 class="title">
+                            Verishop
+                        </h2>
+                        <div class="subtitle">
+                            <strong>$12.5M</strong>
+                            <p>Venture Captital</p>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>Lifestyle</li>
+                        <li>Lightspeed Venture Partners</li>
+                        <li>Verishop: $30 Million In Funding Raised And Valuation Of More Than $100 Million</li>
+                    </ul>
+                </div>
+                <div class="news--two--item">
+                    <div class="header">
+                        <img class="image"
+                            src="https://index.tnwcdn.com/images/5ec987de33ab1484549cc14ddebf135ead38b35d.png"
+                            alt="image">
+                        <h2 class="title">
+                            Verishop
+                        </h2>
+                        <div class="subtitle">
+                            <strong>$12.5M</strong>
+                            <p>Venture Captital</p>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>Lifestyle</li>
+                        <li>Lightspeed Venture Partners</li>
+                        <li>Verishop: $30 Million In Funding Raised And Valuation Of More Than $100 Million</li>
+                    </ul>
+                </div>
+                <div class="news--two--item remove">
+                    <div class="header">
+                        <img class="image"
+                            src="https://index.tnwcdn.com/images/5ec987de33ab1484549cc14ddebf135ead38b35d.png"
+                            alt="image">
+                        <h2 class="title">
+                            Verishop
+                        </h2>
+                        <div class="subtitle">
+                            <strong>$12.5M</strong>
+                            <p>Venture Captital</p>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>Lifestyle</li>
+                        <li>Lightspeed Venture Partners</li>
+                        <li>Verishop: $30 Million In Funding Raised And Valuation Of More Than $100 Million</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="news--three--list">
+                <div class="news--three--item">
+                    <h2 class="news--title">
+                        Apps <span class="title-icon"><i class="fa fa-chevron-right"></i></span>
+                    </h2>
+                    <div class="news--three--item__card">
+                        <div class="news--three--item__header">
+                            <div class="overlay">
+
+                            </div>
+                            <div class="data">
+                                <h4>MOST POPULAR</h4>
+                                <h2>Google's Datally app for saving on mobile data is dead</h2>
+                                <span>Ivan Mehta</span>
+                            </div>
+                        </div>
+                        <div class="news--three-item__body">
+                            <div class="news--three-item__body-left">
+                                <h4>Latest</h4>
+                                <h3>Twitter details what world leaders would have to do to be banned
+                                </h3>
+                            </div>
+                            <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Firefox.jpg"
+                                alt="firefox">
+
+                        </div>
+                        <div class="news--three-item__footer">
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </li>
+                                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="news--three--item">
+                    <h2 class="news--title">
+                        Apps <span class="title-icon"><i class="fa fa-chevron-right"></i></span>
+                    </h2>
+                    <div class="news--three--item__card">
+                        <div class="news--three--item__header">
+                            <div class="overlay">
+
+                            </div>
+                            <div class="data">
+                                <h4>MOST POPULAR</h4>
+                                <h2>Google's Datally app for saving on mobile data is dead</h2>
+                                <span>Ivan Mehta</span>
+                            </div>
+                        </div>
+                        <div class="news--three-item__body">
+                            <div class="news--three-item__body-left">
+                                <h4>Latest</h4>
+                                <h3>Twitter details what world leaders would have to do to be banned
+                                </h3>
+                            </div>
+                            <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Firefox.jpg"
+                                alt="firefox">
+
+                        </div>
+                        <div class="news--three-item__footer">
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </li>
+                                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="news--three--item">
+                    <h2 class="news--title">
+                        Apps <span class="title-icon"><i class="fa fa-chevron-right"></i></span>
+                    </h2>
+                    <div class="news--three--item__card">
+                        <div class="news--three--item__header">
+                            <div class="overlay">
+
+                            </div>
+                            <div class="data">
+                                <h4>MOST POPULAR</h4>
+                                <h2>Google's Datally app for saving on mobile data is dead</h2>
+                                <span>Ivan Mehta</span>
+                            </div>
+                        </div>
+                        <div class="news--three-item__body">
+                            <div class="news--three-item__body-left">
+                                <h4>Latest</h4>
+                                <h3>Twitter details what world leaders would have to do to be banned
+                                </h3>
+                            </div>
+                            <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Firefox.jpg"
+                                alt="firefox">
+
+                        </div>
+                        <div class="news--three-item__footer">
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </li>
+                                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="news--three--item">
+                    <h2 class="news--title">
+                        Apps <span class="title-icon"><i class="fa fa-chevron-right"></i></span>
+                    </h2>
+                    <div class="news--three--item__card">
+                        <div class="news--three--item__header">
+                            <div class="overlay">
+
+                            </div>
+                            <div class="data">
+                                <h4>MOST POPULAR</h4>
+                                <h2>Google's Datally app for saving on mobile data is dead</h2>
+                                <span>Ivan Mehta</span>
+                            </div>
+                        </div>
+                        <div class="news--three-item__body">
+                            <div class="news--three-item__body-left">
+                                <h4>Latest</h4>
+                                <h3>Twitter details what world leaders would have to do to be banned
+                                </h3>
+                            </div>
+                            <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Firefox.jpg"
+                                alt="firefox">
+
+                        </div>
+                        <div class="news--three-item__footer">
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </li>
+                                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="news--three--item">
+                    <h2 class="news--title">
+                        Apps <span class="title-icon"><i class="fa fa-chevron-right"></i></span>
+                    </h2>
+                    <div class="news--three--item__card">
+                        <div class="news--three--item__header">
+                            <div class="overlay">
+
+                            </div>
+                            <div class="data">
+                                <h4>MOST POPULAR</h4>
+                                <h2>Google's Datally app for saving on mobile data is dead</h2>
+                                <span>Ivan Mehta</span>
+                            </div>
+                        </div>
+                        <div class="news--three-item__body">
+                            <div class="news--three-item__body-left">
+                                <h4>Latest</h4>
+                                <h3>Twitter details what world leaders would have to do to be banned
+                                </h3>
+                            </div>
+                            <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Firefox.jpg"
+                                alt="firefox">
+
+                        </div>
+                        <div class="news--three-item__footer">
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </li>
+                                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="news--three--item">
+                    <h2 class="news--title">
+                        Apps <span class="title-icon"><i class="fa fa-chevron-right"></i></span>
+                    </h2>
+                    <div class="news--three--item__card">
+                        <div class="news--three--item__header">
+                            <div class="overlay">
+
+                            </div>
+                            <div class="data">
+                                <h4>MOST POPULAR</h4>
+                                <h2>Google's Datally app for saving on mobile data is dead</h2>
+                                <span>Ivan Mehta</span>
+                            </div>
+                        </div>
+                        <div class="news--three-item__body">
+                            <div class="news--three-item__body-left">
+                                <h4>Latest</h4>
+                                <h3>Twitter details what world leaders would have to do to be banned
+                                </h3>
+                            </div>
+                            <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Firefox.jpg"
+                                alt="firefox">
+
+                        </div>
+                        <div class="news--three-item__footer">
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </li>
+                                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="news--three--item">
+                    <h2 class="news--title">
+                        Apps <span class="title-icon"><i class="fa fa-chevron-right"></i></span>
+                    </h2>
+                    <div class="news--three--item__card">
+                        <div class="news--three--item__header">
+                            <div class="overlay">
+
+                            </div>
+                            <div class="data">
+                                <h4>MOST POPULAR</h4>
+                                <h2>Google's Datally app for saving on mobile data is dead</h2>
+                                <span>Ivan Mehta</span>
+                            </div>
+                        </div>
+                        <div class="news--three-item__body">
+                            <div class="news--three-item__body-left">
+                                <h4>Latest</h4>
+                                <h3>Twitter details what world leaders would have to do to be banned
+                                </h3>
+                            </div>
+                            <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Firefox.jpg"
+                                alt="firefox">
+
+                        </div>
+                        <div class="news--three-item__footer">
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </li>
+                                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="news--three--item">
+                    <h2 class="news--title">
+                        Apps <span class="title-icon"><i class="fa fa-chevron-right"></i></span>
+                    </h2>
+                    <div class="news--three--item__card">
+                        <div class="news--three--item__header">
+                            <div class="overlay">
+
+                            </div>
+                            <div class="data">
+                                <h4>MOST POPULAR</h4>
+                                <h2>Google's Datally app for saving on mobile data is dead</h2>
+                                <span>Ivan Mehta</span>
+                            </div>
+                        </div>
+                        <div class="news--three-item__body">
+                            <div class="news--three-item__body-left">
+                                <h4>Latest</h4>
+                                <h3>Twitter details what world leaders would have to do to be banned
+                                </h3>
+                            </div>
+                            <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Firefox.jpg"
+                                alt="firefox">
+
+                        </div>
+                        <div class="news--three-item__footer">
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </li>
+                                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h1 class="news--title">
+                Latest Deals <span class="title-icon"><i class="fa fa-chevron-right"></i></span>
+            </h1>
+            <div class="news--one--list">
+                <div class="news--one--item">
+                    <div class="news--one--item__header">
+                        <img src="./images/images.png" alt="depressed">
+                    </div>
+                    <div class="news--one--item__body">
+                        <h3>
+                            Why startup founders should open up about their mental health
+                        </h3>
+                        <span>$1200 </span>
+                        <strong>$21</strong>
+                    </div>
+                </div>
+                <div class="news--one--item">
+                    <div class="news--one--item__header">
+                        <img src="./images/images.png" alt="depressed">
+                    </div>
+                    <div class="news--one--item__body">
+                        <h3>
+                            Why startup founders should open up about their mental health
+                        </h3>
+                        <span>$1200 </span>
+                        <strong>$21</strong>
+                    </div>
+                </div>
+                <div class="news--one--item">
+                    <div class="news--one--item__header">
+                        <img src="./images/images.png" alt="depressed">
+                    </div>
+                    <div class="news--one--item__body">
+                        <h3>
+                            Why startup founders should open up about their mental health
+                        </h3>
+                        <span>$1200 </span>
+                        <strong>$21</strong>
+                    </div>
+                </div>
+                <div class="news--one--item">
+                    <div class="news--one--item__header">
+                        <img src="./images/images.png" alt="depressed">
+                    </div>
+                    <div class="news--one--item__body">
+                        <h3>
+                            Why startup founders should open up about their mental health
+                        </h3>
+                        <span>$1200 </span>
+                        <strong>$21</strong>
+                    </div>
+                </div>
+                <div class="news--one--item">
+                    <div class="news--one--item__header">
+                        <img src="./images/images.png" alt="depressed">
+                    </div>
+                    <div class="news--one--item__body">
+                        <h3>
+                            Why startup founders should open up about their mental health
+                        </h3>
+                        <span>$1200 </span>
+                        <strong>$21</strong>
+                    </div>
+                </div>
+                <div class="news--one--item">
+                    <div class="news--one--item__header">
+                        <img src="./images/images.png" alt="depressed">
+                    </div>
+                    <div class="news--one--item__body">
+                        <h3>
+                            Why startup founders should open up about their mental health
+                        </h3>
+                        <span>$1200 </span>
+                        <strong>$21</strong>
+                    </div>
+                </div>
+                <div class="news--one--item">
+                    <div class="news--one--item__header">
+                        <img src="./images/images.png" alt="depressed">
+                    </div>
+                    <div class="news--one--item__body">
+                        <h3>
+                            Why startup founders should open up about their mental health
+                        </h3>
+                        <span>$1200 </span>
+                        <strong>$21</strong>
+                    </div>
+                </div>
+                <div class="news--one--item">
+                    <div class="news--one--item__header">
+                        <img src="./images/images.png" alt="depressed">
+                    </div>
+                    <div class="news--one--item__body">
+                        <h3>
+                            Why startup founders should open up about their mental health
+                        </h3>
+                        <span>$1200 </span>
+                        <strong>$21</strong>
+                    </div>
+                </div>
+            </div>
+            <div class="main--ads-one">
+                <img src="https://tpc.googlesyndication.com/daca_images/simgad/18042429881767174580" alt="">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer--top">
+            <ul class="footer--top__icons">
+                <li>
+                    <i class="fa fa-facebook-official"></i>
+                </li>
+                <li>
+                    <i class="fa fa-twitter"></i>
+                </li>
+                <li>
+                    <i class="fa fa-youtube-play"></i>
+                </li>
+                <li>
+                    <i class="fa fa-instagram"></i>
+                </li>
+                <li>
+                    <i class="fa fa-pinterest-p"></i>
+
+                </li>
+                <li>
+                    <i class="fa fa-rss"></i>
+
+                </li>
+                <li>
+                    <i class="fa fa-envelope"></i>
+                </li>
+            </ul>
+            <ul class="footer--top__nav">
+                <li>
+                    <a href="#">EVENTS</a>
+                </li>
+                <li>
+                    <a href="#">ABOUT</a>
+                </li>
+                <li>
+                    <a href="#">TEAM</a>
+                </li>
+                <li>
+                    <a href="#">ADVERTISE</a>
+                </li>
+                <li>
+                    <a href="#">JOBS</a>
+                </li>
+                <li>
+                    <a href="#">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer--bottom">
+            <span>
+                The Next Web © 2006–2019 The Next Web B.V. Made with ♥ in Amsterdam. Powered by StackPath
+
+            </span>
+        </div>
+    </footer>
+
 </body>
 
 </html>
