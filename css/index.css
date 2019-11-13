@@ -67,8 +67,20 @@ main {
 
 .main--body {
   display: block;
-  width: 60%;
-  margin: 1rem 20%;
+}
+
+@media (min-width: 1281px) and (max-width: 1600px) {
+  .main--body {
+    width: 80%;
+    margin: 1rem 10%;
+  }
+}
+
+@media (min-width: 1601px) {
+  .main--body {
+    width: 60%;
+    margin: 1rem 20%;
+  }
 }
 
 @media (max-width: 1280px) {
